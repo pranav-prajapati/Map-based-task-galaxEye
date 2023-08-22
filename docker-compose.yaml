@@ -1,0 +1,11 @@
+version: '3'
+services:
+  map_assessment:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: map_assessment_container
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/application/src
