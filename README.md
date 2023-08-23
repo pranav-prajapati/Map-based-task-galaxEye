@@ -22,4 +22,4 @@ To create a user dashboard with docker compose where user can draw their AOI to 
 ```docker-compose --file docker-compose.yaml up```
 
 ***
-
+###### Note : The data is only for karnataka region is provided so only for that particular region intersecting tile will be visible. 
